@@ -1,0 +1,10 @@
+.lct7.plt
+.erlang.mk
+_rel
+lct7.d
+deps
+ebin/*.beam
+ebin/test
+logs
+relx
+test/*.beam
