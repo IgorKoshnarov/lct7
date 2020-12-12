@@ -4,7 +4,7 @@
 
 -include("../include/lct7_cache.hrl").
 
--define(DROP_INTERVAL, application:get_env(lct7, drop_interval, 3600_000)). % timer accepts milliseconds
+-define(DROP_INTERVAL, application:get_env(lct7, drop_interval, 3600000)). % timer accepts milliseconds
 -define(NOW, calendar:datetime_to_gregorian_seconds(calendar:universal_time())).
 
 -export([insert/2, lookup/2, lookup_by_date/2]).
